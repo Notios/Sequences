@@ -13,10 +13,9 @@ public class Sequence_Fibonacci{
 		for (int i=2; i<=20; i++){
 			
 			f = f * i;
-			System.out.println("a" + i + "=" + f);
+			System.out.println("a" + i + "=" + f);		
 			
-			
-        }
+        	}
 		
 	}
 }
