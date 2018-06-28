@@ -13,12 +13,12 @@ public class Sequence_1{
 		System.out.println("Sequence");
 		
 		for (int i=1; i<=10; i++){
-			
+
 			an = 3*a1 - 4*a2;
-            System.out.println("a" + i + "=" + an);
+			System.out.println("a" + i + "=" + an);
 			a1 = a2;
 			a2 = an;
-        }
+		}
 		
 	}
 }
